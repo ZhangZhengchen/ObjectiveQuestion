@@ -13,3 +13,7 @@ Four experts rate three aspects: Target Alignment, Answer and Scoring Validity, 
 Literature materials derive from *Approaching prose fiction*, Steve Padley / The Open University, first published 2012, updated 2018, used/reworked under CC BY-NC-SA 4.0. Practice passages are researcher-written. See the page footers for attribution. These are research examples, not official Open University questions. TreeQuestion-style and ConQuer-adapted outputs are identified as adaptations; no upstream source code is redistributed.
 
 GitHub Pages source: main branch, repository root. No build dependencies are needed.
+
+Supplementary examples: https://zhangzhengchen.github.io/ObjectiveQuestion/other-subjects.html
+
+The supplementary page contains 14 curated education and teaching examples from four public courses and one teaching resource. It has no rating form and publishes no model or expert quality results. It is separate from the main review dataset. Adapted content retains per-source attribution and CC BY-SA 4.0 or CC BY-NC-SA 4.0 terms as indicated on the page; third-party source material is excluded.
