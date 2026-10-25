@@ -10,7 +10,9 @@ This upload contains only the question/review pages and necessary browser functi
 
 Four experts rate three aspects: Target Alignment, Answer and Scoring Validity, and Question Design Quality. Work is stored in the reviewer’s browser; completed JSON files must be downloaded and returned to the coordinator. There is no central submission service. Human scores have not yet been collected.
 
-Literature materials derive from *Approaching prose fiction*, Steve Padley / The Open University, first published 2012, updated 2018, used/reworked under CC BY-NC-SA 4.0. Practice passages are researcher-written. See the page footers for attribution. These are research examples, not official Open University questions. TreeQuestion-style and ConQuer-adapted outputs are identified as adaptations; no upstream source code is redistributed.
+Literature materials derive from *Approaching prose fiction*, Steve Padley / The Open University, first published 2012, updated 2018, used/reworked under CC BY-NC-SA 4.0. Practice passages are researcher-written. See the page footers for attribution. These are research examples, not official Open University questions. Earlier TreeQuestion-style and ConQuer-adapted outputs are retained in legacy-comparison.html as historical examples for earlier cases. They are not matched controls for the current regenerated questions. No upstream source code is redistributed.
+
+Current release: 50 regenerated questions (main review: 20; supplementary display: 30). Previous browser review records remain accessible at review-previous.html and are not merged with new-version ratings.
 
 GitHub Pages source: main branch, repository root. No build dependencies are needed.
 
