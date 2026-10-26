@@ -1,9 +1,9 @@
 # ObjectiveQuestion
 
-Current demonstration:30 bilingual items,10 each from AI-literacy teaching documents, MIT6.005 Software Construction (Spring2016; readings3,6 Part1,7), and Open University Inclusive Teaching and Learning (Week3).
+Current demonstration:30 English items,10 each from AI-literacy teaching documents, MIT6.005 Software Construction (Spring2016; readings3,6 Part1,7), and Open University Inclusive Teaching and Learning (Week3).
 
 - Expert review: index.html
-- Bilingual gallery: questions.html
+- English question gallery: questions.html
 - Worked method: method.html
 - Criteria and aggregation: guide.html
 
