@@ -10,7 +10,7 @@ The public demonstration contains three sets of ten English questions:
 - `index.html`: four-expert review of the 20 study questions using three aspects.
 - `questions.html`: all three current sets, with targets, sources, answers and five-stage design records.
 - `questions.html#scalability`: the ten inclusive-teaching illustrations.
-- `method.html`: worked software-construction example.
+- `method.html`: worked AI-literacy example (AI04: review of a public AI-drafted notice).
 - `guide.html`: rating criteria and aggregation for the two study courses.
 
 The previous literature, CMU learning-principles and classroom-research examples are not displayed in the current public site. Local research copies are retained.
