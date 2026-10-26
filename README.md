@@ -1,16 +1,20 @@
 # ObjectiveQuestion
 
-Current demonstration:30 English items,10 each from AI-literacy teaching documents, MIT6.005 Software Construction (Spring2016; readings3,6 Part1,7), and Open University Inclusive Teaching and Learning (Week3).
+The public demonstration contains three sets of ten English questions:
 
-- Expert review: index.html
-- English question gallery: questions.html
-- Worked method: method.html
-- Criteria and aggregation: guide.html
+- **Expert review:** AI Literacy (10) and MIT 6.005 Software Construction (10).
+- **Scalability illustration:** Inclusive Teaching and Learning (10), with no expert-rating task. INC02 and INC06 use the locally revised targets and questions.
 
-Four experts, three aspects, browser-local ratings returned by JSON export. No expert results are prefilled. Public pages contain no LLM quality scores, generation code, API logs, private teaching files or credentials. Reading and response limits are pilot design constraints; no student-difficulty claims.
+## Pages
 
-MIT source material: CC BY-NC-SA4.0; inclusive teaching source material: CC BY-SA4.0. Adapted content is attributed on the pages; third-party media and learner responses are excluded. Questions are research adaptations, not official course assessments.
+- `index.html`: four-expert review of the 20 study questions using three aspects.
+- `questions.html`: all three current sets, with targets, sources, answers and five-stage design records.
+- `questions.html#scalability`: the ten inclusive-teaching illustrations.
+- `method.html`: worked software-construction example.
+- `guide.html`: rating criteria and aggregation for the two study courses.
 
-## Additional subject illustrations
+The previous literature, CMU learning-principles and classroom-research examples are not displayed in the current public site. Local research copies are retained.
 
-other-subjects.html contains30 freshly generated supplementary examples:10 from OpenLearn Approaching prose fiction,10 from CMU Eberly Center Learning Principles (a teaching resource, not a standalone course), and10 from OpenLearn Learning to teach: An introduction to classroom research. They are separate from the main30-item evaluation and expert-review task, with no quality-scoring interface or model scores. Each includes source-linked knowledge, an assessment target, an answer/explanation and a five-stage design record. Source concepts may be reused; old question texts/keys were not restored. The public site is English only; bilingual author review remains local.
+The review dataset version changed when its scope was reduced to 20 questions. Earlier 30-item exports remain historical; they are not silently imported into this review version. Ratings are stored in the reviewer's browser and returned through JSON export. No expert results are prefilled. Public pages contain no numerical LLM quality scores, generation code, API logs or private teaching documents.
+
+Questions are researcher-designed adaptations rather than official course assessments. MIT materials: MIT OpenCourseWare 6.005, Spring 2016, CC BY-NC-SA 4.0. Inclusive-teaching materials: The Open University and partners, Week 3, CC BY-SA 4.0. AI-literacy source documents are private and are not distributed. Third-party media and identifiable learner records are excluded. The method does not estimate or calibrate student item difficulty.
