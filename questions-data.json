@@ -1,5 +1,5 @@
 {
-  "version": "oq-two-courses-14-ddc94324eddc",
+  "version": "oq-blind28-3374dd5b8c75",
   "courses": [
     {
       "id": "ai",
@@ -77,14 +77,500 @@
   },
   "items": [
     {
-      "id": "AI01",
+      "id": "Q001",
+      "course": "team",
+      "focus": "Distinguish the devil advocate role of testing a proposal assumptions from an idea advocate role of presenting the case for an assigned contender, and recognise power imbalance as a limitation of the latter.",
+      "outcome": "Distinguish the devil advocate role of testing a proposal assumptions from an idea advocate role of presenting the case for an assigned contender, and recognise power imbalance as a limitation of the latter.",
+      "format": "Single choice",
+      "item": {
+        "question": "A committee assigns Maya to challenge a proposal’s assumptions and identify weaknesses. It assigns Leo to present the strongest case for an alternative proposal. Which statement correctly identifies their roles and a limitation of Leo’s role?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Maya is a devil’s advocate; Leo is an idea advocate. Unequal status or authority among advocates may give some proposals an unfair advantage."
+          },
+          {
+            "id": "B",
+            "text": "Maya is an idea advocate; Leo is a devil’s advocate. Unequal status or authority among advocates may give some proposals an unfair advantage."
+          },
+          {
+            "id": "C",
+            "text": "Maya is a devil’s advocate; Leo is an idea advocate. Advocacy ensures that all proposals receive equal consideration regardless of the advocates’ authority."
+          },
+          {
+            "id": "D",
+            "text": "Both are devil’s advocates because both roles focus on finding weaknesses rather than supporting a proposal."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "A",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "1ac11b920f559fff"
+    },
+    {
+      "id": "Q002",
+      "course": "team",
+      "focus": "Determine the necessary dependencies between articulating a plan assumptions, constructing a counter-plan using counter-assumptions, examining both, and developing shared tested assumptions for a new plan.",
+      "outcome": "Determine the necessary dependencies between articulating a plan assumptions, constructing a counter-plan using counter-assumptions, examining both, and developing shared tested assumptions for a new plan.",
+      "format": "Ordering",
+      "item": {
+        "question": "A library team is using dialectical inquiry to plan evening opening hours. Put these four work packages in the order required by the method, from first to last. Each package is completed once.",
+        "response_format": "ordering",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Present both plans and their supporting evidence to the review group; probe weaknesses and identify overlooked assumptions."
+          },
+          {
+            "id": "B",
+            "text": "Jointly pool and scrutinise assumptions, reconcile or test competing ones where possible, and use agreed core assumptions to develop a new plan."
+          },
+          {
+            "id": "C",
+            "text": "Develop an evening-opening proposal and give its key underlying assumptions to the counter-proposal group."
+          },
+          {
+            "id": "D",
+            "text": "Develop an alternative plan by finding plausible counter-assumptions and using them to uncover or reinterpret evidence."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": [
+          "C",
+          "D",
+          "A",
+          "B"
+        ],
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "91070b4934495b96"
+    },
+    {
+      "id": "Q003",
+      "course": "team",
+      "focus": "Choose a proportionate managerial response to the described development of conflict, distinguishing monitored self-resolution from abandonment and adapting intervention as circumstances change.",
+      "outcome": "Choose a proportionate managerial response to the described development of conflict, distinguishing monitored self-resolution from abandonment and adapting intervention as circumstances change.",
+      "format": "Single choice",
+      "item": {
+        "question": "Two colleagues disagree about dividing project work. Both initially ask to settle it themselves, so their manager agrees and checks progress privately. A week later, they have stopped discussing the division and each is waiting for the other to restart. Work is beginning to slip, but both remain willing to talk privately. Which response is most proportionate now?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Keep the existing private progress checks, leaving the colleagues to decide when to restart discussions."
+          },
+          {
+            "id": "B",
+            "text": "Arrange a private conversation to help them restart discussions, then check whether their agreement restores progress."
+          },
+          {
+            "id": "C",
+            "text": "Announce a manager-decided division at the next team meeting, then check whether both colleagues follow it."
+          },
+          {
+            "id": "D",
+            "text": "Suspend progress checks to give them space, asking them to report back when they have settled the division."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "4036a725dfb5252d"
+    },
+    {
+      "id": "Q004",
       "course": "ai",
-      "title": "Distinguish changes to the chatbot interface, the prompt, and the underlying generative AI model in a practical content-generation task.",
+      "focus": "Analyse subtasks, input-output handoffs, capability choices, validation and human responsibility in an AI-supported workflow, judging whether they support the overall task goal.",
+      "outcome": "Analyse subtasks, input-output handoffs, capability choices, validation and human responsibility in an AI-supported workflow, judging whether they support the overall task goal.",
+      "format": "Multiple select",
+      "item": {
+        "question": "A university wants accurate answers to orientation questions. Staff select current official sources and remain responsible for release. Retrieval produces relevant passages; classification assigns an office label. The drafting tool receives only the question and office label. A staff reviewer receives only the draft and checks its clarity before release.\n\nWhich TWO changes repair the information handoffs needed for factual accuracy while retaining these subtasks and staff responsibility?",
+        "response_format": "multiple_select",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Pass the retrieved official passages to the drafting tool alongside its existing inputs."
+          },
+          {
+            "id": "B",
+            "text": "Give the reviewer the official passages and require comparison with the draft."
+          },
+          {
+            "id": "C",
+            "text": "Pass the office label to the reviewer as the factual reference for checking the draft."
+          },
+          {
+            "id": "D",
+            "text": "Have staff check the retrieved passages instead of checking the generated draft."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": [
+          "A",
+          "B"
+        ],
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "c359dd50439e0fef"
+    },
+    {
+      "id": "Q005",
+      "course": "ai",
+      "focus": "Analyse required processing and results in learning or work tasks, choose suitable AI capabilities, and judge when a combination of capabilities is needed.",
+      "outcome": "Analyse required processing and results in learning or work tasks, choose suitable AI capabilities, and judge when a combination of capabilities is needed.",
+      "format": "Single choice",
+      "item": {
+        "question": "A project manager has 50 scanned customer-feedback forms. They need a report showing the most common complaints and the percentage of customers mentioning each complaint. Which combination of AI capabilities is most suitable?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Image generation to recreate the forms, followed by text generation to write the report."
+          },
+          {
+            "id": "B",
+            "text": "Optical character recognition (OCR) to extract the text, language analysis to group complaints, and data analysis to calculate percentages."
+          },
+          {
+            "id": "C",
+            "text": "Speech recognition to extract the feedback, followed by sentiment analysis to calculate complaint percentages."
+          },
+          {
+            "id": "D",
+            "text": "Text summarisation to describe a few forms, followed by translation to standardise the report."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "77e30ccfe350b777"
+    },
+    {
+      "id": "Q006",
+      "course": "team",
+      "focus": "Distinguish the devil advocate role of testing a proposal assumptions from an idea advocate role of presenting the case for an assigned contender, and recognise power imbalance as a limitation of the latter.",
+      "outcome": "Distinguish the devil advocate role of testing a proposal assumptions from an idea advocate role of presenting the case for an assigned contender, and recognise power imbalance as a limitation of the latter.",
+      "format": "Multiple select",
+      "item": {
+        "question": "A team has shortlisted three staff-scheduling proposals. First, Maya is asked to examine one proposal’s assumptions and check its analysis for inconsistencies. Later, each proposal is assigned a presenter to make its strongest case. One presenter is a director; the other two are junior employees whose promotion the director controls. All receive equal preparation time.\n\nWhich conclusions are supported by the course? Select all that apply.",
+        "response_format": "multiple_select",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Maya’s initial assignment fits the devil’s advocate role."
+          },
+          {
+            "id": "B",
+            "text": "The presenters’ assignments fit the idea advocate role."
+          },
+          {
+            "id": "C",
+            "text": "The director’s authority creates a limitation for the advocacy arrangement."
+          },
+          {
+            "id": "D",
+            "text": "Equal preparation time adequately addresses the presenters’ power differences."
+          },
+          {
+            "id": "E",
+            "text": "The presenters should primarily identify weaknesses in their assigned proposals."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "e91c2a43bd511e4d"
+    },
+    {
+      "id": "Q007",
+      "course": "ai",
+      "focus": "Evaluate AI-output quality and use risks against task purpose, verifiable evidence and output-evaluation criteria, choosing appropriate checking, revision or safeguards.",
+      "outcome": "Evaluate AI-output quality and use risks against task purpose, verifiable evidence and output-evaluation criteria, choosing appropriate checking, revision or safeguards.",
+      "format": "Single choice",
+      "item": {
+        "question": "A team uses AI to draft a public health information sheet. The draft is clear and well organized, but it includes medical claims without sources. What is the most appropriate action before publishing?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Publish it because clear writing indicates reliable information."
+          },
+          {
+            "id": "B",
+            "text": "Ask the AI whether its claims are accurate and publish if it confirms."
+          },
+          {
+            "id": "C",
+            "text": "Verify the claims against current authoritative health sources, revise inaccuracies, and obtain qualified review."
+          },
+          {
+            "id": "D",
+            "text": "Add a disclaimer that the content was AI-generated without checking the claims."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "C",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "ba815150a3da0725"
+    },
+    {
+      "id": "Q008",
+      "course": "team",
+      "focus": "Determine the necessary dependencies between articulating a plan assumptions, constructing a counter-plan using counter-assumptions, examining both, and developing shared tested assumptions for a new plan.",
+      "outcome": "Determine the necessary dependencies between articulating a plan assumptions, constructing a counter-plan using counter-assumptions, examining both, and developing shared tested assumptions for a new plan.",
+      "format": "Single choice",
+      "item": {
+        "question": "Which sequence best describes how to develop a new plan based on shared, tested assumptions?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Select a new plan, identify supporting assumptions, and dismiss conflicting assumptions."
+          },
+          {
+            "id": "B",
+            "text": "Articulate the original plan’s assumptions, construct a counter-plan using counter-assumptions, examine both sets of assumptions, and use the shared, tested assumptions to develop a new plan."
+          },
+          {
+            "id": "C",
+            "text": "Construct a counter-plan, choose whichever plan has more support, and test only that plan’s assumptions."
+          },
+          {
+            "id": "D",
+            "text": "Combine the original plan and counter-plan, then identify assumptions that justify the combined plan."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "4502f4696ce432f3"
+    },
+    {
+      "id": "Q009",
+      "course": "team",
+      "focus": "Choose a proportionate managerial response to the described development of conflict, distinguishing monitored self-resolution from abandonment and adapting intervention as circumstances change.",
+      "outcome": "Choose a proportionate managerial response to the described development of conflict, distinguishing monitored self-resolution from abandonment and adapting intervention as circumstances change.",
+      "format": "Single choice",
+      "item": {
+        "question": "A manager notices disagreement between two experienced employees about how to divide project tasks. Both remain respectful, the deadline is not at risk, and they agree to work out a solution. The manager asks them to report back the next day and offers support if needed. At the check-in, they report that discussions have stalled, and their disagreement is now delaying another team’s work.\n\nWhat is the most appropriate response for the manager?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Give them more time without further check-ins, because intervening would undermine their independence."
+          },
+          {
+            "id": "B",
+            "text": "Facilitate a focused discussion to clarify the disputed responsibilities, agree on next steps, and set a follow-up date."
+          },
+          {
+            "id": "C",
+            "text": "Immediately begin disciplinary action against both employees for failing to resolve the disagreement."
+          },
+          {
+            "id": "D",
+            "text": "Continue daily check-ins but leave all responsibility for resolving the issue with the employees, regardless of further delays."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "3388d9e30c5946a0"
+    },
+    {
+      "id": "Q010",
+      "course": "ai",
+      "focus": "Analyse required processing and results in learning or work tasks, choose suitable AI capabilities, and judge when a combination of capabilities is needed.",
+      "outcome": "Analyse required processing and results in learning or work tasks, choose suitable AI capabilities, and judge when a combination of capabilities is needed.",
+      "format": "Multiple select",
+      "item": {
+        "question": "A university library has 300 written student comments and three established categories: opening hours, study spaces, and borrowing services. Staff want each comment assigned to a category and a newly written paragraph describing the main concerns in each category. They do not need estimates of future usage or suggestions for services to offer.\n\nWhich AI capabilities are needed in combination to produce these outputs? Select TWO. Treat capabilities as functions, even if one tool provides both.",
+        "response_format": "multiple_select",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Classification"
+          },
+          {
+            "id": "B",
+            "text": "Prediction"
+          },
+          {
+            "id": "C",
+            "text": "Generation"
+          },
+          {
+            "id": "D",
+            "text": "Recommendation"
+          }
+        ],
+        "response_rows": [],
+        "answer_key": [
+          "A",
+          "C"
+        ],
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "543482911b2b12ce"
+    },
+    {
+      "id": "Q011",
+      "course": "team",
+      "focus": "Distinguish a change to meeting topics from a change to how participants examine and discuss those topics; select a process adjustment suited to the stated meeting need.",
+      "outcome": "Distinguish a change to meeting topics from a change to how participants examine and discuss those topics; select a process adjustment suited to the stated meeting need.",
+      "format": "Single choice",
+      "item": {
+        "question": "A team meeting must cover routine progress reports and a disputed scheduling proposal. Reports need only factual clarification; the proposal needs examination from several perspectives. The same two members usually dominate discussion. Which revision best addresses these needs?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Replace individual progress reports with a combined report and split the scheduling proposal into smaller agenda topics, retaining the usual discussion approach."
+          },
+          {
+            "id": "B",
+            "text": "Keep both topics, allow clarification after reports, and agree ground rules for examining the proposal that give each member space to contribute."
+          },
+          {
+            "id": "C",
+            "text": "Keep both topics and agree that every item receives a full dialogue, with each member contributing before the team moves on."
+          },
+          {
+            "id": "D",
+            "text": "Keep both topics, allow clarification after reports, and let the two most vocal members debate the proposal before others ask questions."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "8f63dd110c9d0743"
+    },
+    {
+      "id": "Q012",
+      "course": "team",
+      "focus": "Distinguish reciprocal concessions from a jointly developed solution addressing both parties concerns, without assuming compromise is always wrong or collaboration always feasible.",
+      "outcome": "Distinguish reciprocal concessions from a jointly developed solution addressing both parties concerns, without assuming compromise is always wrong or collaboration always feasible.",
+      "format": "Single choice",
+      "item": {
+        "question": "A customer-support team wants to extend evening service, while employees are concerned about unpredictable schedules. Two proposals emerge:\n\n- Proposal 1: Managers reduce the requested evening coverage from five nights to three, and employees agree to work those three nights despite preferring none.\n- Proposal 2: Managers and employees jointly design a voluntary evening-shift program with fixed schedules and shift premiums. Enough employees volunteer to provide coverage for all five nights.\n\nWhich statement best describes the proposals?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Both are compromises because each changes the original scheduling arrangement."
+          },
+          {
+            "id": "B",
+            "text": "Proposal 1 is a compromise involving reciprocal concessions; Proposal 2 is a collaborative solution addressing both coverage and scheduling concerns."
+          },
+          {
+            "id": "C",
+            "text": "Proposal 1 is collaborative because both sides agree; Proposal 2 is a compromise because premiums cost money."
+          },
+          {
+            "id": "D",
+            "text": "Proposal 2 proves that collaboration is always feasible and that accepting Proposal 1 would be wrong."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "4407a4d6bd988a86"
+    },
+    {
+      "id": "Q013",
+      "course": "ai",
+      "focus": "Analyse subtasks, input-output handoffs, capability choices, validation and human responsibility in an AI-supported workflow, judging whether they support the overall task goal.",
+      "outcome": "Analyse subtasks, input-output handoffs, capability choices, validation and human responsibility in an AI-supported workflow, judging whether they support the overall task goal.",
+      "format": "Single choice",
+      "item": {
+        "question": "A school uses AI to help teachers create personalised revision plans. The workflow is:\n\n1. A teacher selects the learning objectives and uploads students’ quiz results using anonymous student IDs.\n2. A spreadsheet calculates each student’s scores by topic.\n3. An AI tool receives the topic scores and learning objectives, then drafts revision plans using an approved resource list.\n4. The plans are automatically sent to students without review.\n\nThe goal is to provide accurate, relevant revision guidance while keeping teachers responsible for instructional decisions.\n\nWhich change would best align the workflow with this goal?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Let the AI calculate the topic scores as well, removing the spreadsheet step."
+          },
+          {
+            "id": "B",
+            "text": "Require a teacher to check each draft against the quiz results, learning objectives and approved resources before sending it."
+          },
+          {
+            "id": "C",
+            "text": "Give the AI students’ names instead of anonymous IDs so it can personalise the plans more effectively."
+          },
+          {
+            "id": "D",
+            "text": "Ask the AI to confirm that its own plans are accurate, then send them automatically."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "ba05ccf3250975ca"
+    },
+    {
+      "id": "Q014",
+      "course": "ai",
+      "focus": "Explain the relationships among AI, generative AI, chatbots and prompts, and distinguish their roles in practical AI use.",
       "outcome": "Explain the relationships among AI, generative AI, chatbots and prompts, and distinguish their roles in practical AI use.",
-      "focus": "Distinguish changes to the chatbot interface, the prompt, and the underlying generative AI model in a practical content-generation task.",
+      "format": "Matching",
       "item": {
         "question": "A university office uses a chat application to draft event announcements. Staff type a request, and a server-based system produces a new draft. For each independent change below, identify the component directly changed. All other components remain fixed. Choose one answer per row; choices may be used more than once.",
-        "targeted_judgment": "Distinguish changes to the chatbot interface, the prompt, and the underlying generative AI model in a practical content-generation task.",
         "response_format": "matching",
         "candidate_options": [
           {
@@ -114,280 +600,62 @@
             "text": "The provider replaces the server's text-generation engine while retaining the conversation screen and staff requests."
           }
         ],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": true,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match against the three keyed mappings; row order is irrelevant.",
-          "partial_credit": false,
-          "response_ids": [
-            "R1",
-            "R2",
-            "R3"
-          ]
-        },
-        "explanation": "R1 → B: Changing the requested tone and length changes the input instructions, not the interface or processing model. R2 → A: Replacing the conversation screen changes the interaction interface; the requests and model remain fixed. R3 → C: Replacing the engine that generates text changes the underlying model, not the screen or input instructions.",
-        "provided_knowledge": [
-          "The application generates new announcement drafts from staff requests.",
-          "Each change is independent, and all other components remain fixed."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples the distinction among interface, prompt, and underlying model; it does not establish understanding of the broader inclusion relationship between AI and generative AI."
-        ],
         "answer_key": {
           "R1": "B",
           "R2": "A",
           "R3": "C"
         },
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Matching",
-      "source": "Teaching video source documents",
-      "target_status": "Teacher-confirmed learning outcome; generated item-level focus.",
-      "item_version": "892ef12a5b044234",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": true
         }
       },
-      "key_agreement": true
+      "item_version": "7901a0b3a1a02b99"
     },
     {
-      "id": "AI02",
-      "course": "ai",
-      "title": "Identify local audience and source revisions that align a prompt with a stated brief without changing its already-aligned task, context, or output requirements.",
-      "outcome": "Use TACOS to organise and revise prompts for a stated purpose and context, aligning task, audience, context, output and source requirements.",
-      "focus": "Identify local audience and source revisions that align a prompt with a stated brief without changing its already-aligned task, context, or output requirements.",
+      "id": "Q015",
+      "course": "team",
+      "focus": "Distinguish improving the means to achieve a fixed goal from using an inventory of existing capabilities and resources to explore alternative goals, within organisational constraints.",
+      "outcome": "Distinguish improving the means to achieve a fixed goal from using an inventory of existing capabilities and resources to explore alternative goals, within organisational constraints.",
+      "format": "Single choice",
       "item": {
-        "question": "A university library needs recommendations for supervisors addressing students’ difficulty finding books. The recommendations must use only the attached student survey and appear in a two-column table: problem and proposed action.\n\nDraft prompt: “Recommend improvements for a university library where students struggle to find books. Write for student visitors. Use a two-column table: problem and proposed action. Draw on the attached survey and library websites.”\n\nWhich TWO edits align the prompt with the brief while preserving requirements already met?",
-        "targeted_judgment": "Identify local audience and source revisions that align a prompt with a stated brief without changing its already-aligned task, context, or output requirements.",
-        "response_format": "multiple_select",
+        "question": "A team has a small budget, spare workshop space, and staff with design and repair skills. Management requires any new activity to meet safety standards and avoid additional borrowing. Which approach uses existing capabilities and resources to explore alternative goals, rather than improving the means to achieve a fixed goal?",
+        "response_format": "single_choice",
         "candidate_options": [
           {
             "id": "A",
-            "text": "Replace “student visitors” with “library supervisors.”"
+            "text": "Set a target of repairing 200 devices each month, then find the most efficient workflow."
           },
           {
             "id": "B",
-            "text": "Replace the source instruction with “Use only the attached student survey.”"
+            "text": "Use the team’s skills and available space to trial repair classes and refurbishment services, then choose a viable direction within management’s limits."
           },
           {
             "id": "C",
-            "text": "Replace the table instruction with “Write a short briefing for library supervisors.”"
+            "text": "Commit to launching a new product, then identify the additional skills and equipment needed."
           },
           {
             "id": "D",
-            "text": "Replace “Recommend improvements” with “Summarise students’ reported difficulties.”"
+            "text": "Keep the existing repair service and compare scheduling systems to reduce turnaround time."
           }
         ],
         "response_rows": [],
-        "shared_comparison_attributes": [],
+        "answer_key": "B",
         "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match; selection order does not matter.",
-          "partial_credit": false
-        },
-        "explanation": "A corrects the audience: students experience the problem, but supervisors will read the recommendations. B corrects the sources by excluding websites, as the brief requires. C names the right audience but replaces an already-correct output format. D substitutes summarisation for recommending improvements, changing the required task rather than repairing a mismatch.",
-        "provided_knowledge": [
-          "The intended readers are library supervisors.",
-          "The task is to recommend improvements addressing students’ difficulty finding books.",
-          "Only the attached survey may be used, and the required output is a two-column table."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples targeted revision of audience and sources while preserving other requirements; it does not establish independent ability to construct a complete TACOS prompt."
-        ],
-        "answer_key": [
-          "A",
-          "B"
-        ],
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Multiple select",
-      "source": "Teaching video source documents",
-      "target_status": "Teacher-confirmed learning outcome; generated item-level focus.",
-      "item_version": "aee421d2c0046781",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
+          "partial_credit": false,
+          "reuse_allowed": false
         }
       },
-      "key_agreement": true
+      "item_version": "326add0801f94c36"
     },
     {
-      "id": "AI03",
+      "id": "Q016",
       "course": "ai",
-      "title": "Distinguish assigning existing text to established categories from composing new text, and recognize that a task requiring both outputs needs classification and generation capabilities.",
-      "outcome": "Analyse required processing and results in learning or work tasks, choose suitable AI capabilities, and judge when a combination of capabilities is needed.",
-      "focus": "Distinguish assigning existing text to established categories from composing new text, and recognize that a task requiring both outputs needs classification and generation capabilities.",
-      "item": {
-        "question": "A university library has 300 written student comments and three established categories: opening hours, study spaces, and borrowing services. Staff want each comment assigned to a category and a newly written paragraph describing the main concerns in each category. They do not need estimates of future usage or suggestions for services to offer.\n\nWhich AI capabilities are needed in combination to produce these outputs? Select TWO. Treat capabilities as functions, even if one tool provides both.",
-        "targeted_judgment": "Distinguish assigning existing text to established categories from composing new text, and recognize that a task requiring both outputs needs classification and generation capabilities.",
-        "response_format": "multiple_select",
-        "candidate_options": [
-          {
-            "id": "A",
-            "text": "Classification"
-          },
-          {
-            "id": "B",
-            "text": "Prediction"
-          },
-          {
-            "id": "C",
-            "text": "Generation"
-          },
-          {
-            "id": "D",
-            "text": "Recommendation"
-          }
-        ],
-        "response_rows": [],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Compare selected IDs as an unordered set; only {A, C} is correct.",
-          "partial_credit": false
-        },
-        "explanation": "A is correct because assigning comments to established categories requires classification. C is correct because composing paragraphs from the categorized comments requires generation. B is incorrect because the requested outputs describe existing feedback rather than estimate future usage. D is incorrect because staff are not requesting suggested services or actions. The two required functions may be supplied by one tool; combining capabilities does not necessarily mean using multiple tools.",
-        "provided_knowledge": [
-          "The input consists of written comments and three established categories.",
-          "The required outputs are a category assignment for each comment and a newly written paragraph for each category.",
-          "Future usage estimates and service suggestions are outside the requested scope.",
-          "A single tool may provide more than one capability."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples classification and generation selection, not the full range of AI capabilities in LO03.",
-          "It assesses recognition of a required capability combination, not implementation or output validation."
-        ],
-        "answer_key": [
-          "A",
-          "C"
-        ],
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Multiple select",
-      "source": "Teaching video source documents",
-      "target_status": "Teacher-confirmed learning outcome; generated item-level focus.",
-      "item_version": "af27339abd8ba4d9",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 3
-        }
-      },
-      "key_agreement": true
-    },
-    {
-      "id": "AI04",
-      "course": "ai",
-      "title": "Identify when generation and validation lack the upstream evidence they require, and select local handoff repairs without replacing the workflow or transferring human accountability.",
-      "outcome": "Analyse subtasks, input-output handoffs, capability choices, validation and human responsibility in an AI-supported workflow, judging whether they support the overall task goal.",
-      "focus": "Identify when generation and validation lack the upstream evidence they require, and select local handoff repairs without replacing the workflow or transferring human accountability.",
-      "item": {
-        "question": "A university wants accurate answers to orientation questions. Staff select current official sources and remain responsible for release. Retrieval produces relevant passages; classification assigns an office label. The drafting tool receives only the question and office label. A staff reviewer receives only the draft and checks its clarity before release.\n\nWhich TWO changes repair the information handoffs needed for factual accuracy while retaining these subtasks and staff responsibility?",
-        "targeted_judgment": "Identify when generation and validation lack the upstream evidence they require, and select local handoff repairs without replacing the workflow or transferring human accountability.",
-        "response_format": "multiple_select",
-        "candidate_options": [
-          {
-            "id": "A",
-            "text": "Pass the retrieved official passages to the drafting tool alongside its existing inputs."
-          },
-          {
-            "id": "B",
-            "text": "Give the reviewer the official passages and require comparison with the draft."
-          },
-          {
-            "id": "C",
-            "text": "Pass the office label to the reviewer as the factual reference for checking the draft."
-          },
-          {
-            "id": "D",
-            "text": "Have staff check the retrieved passages instead of checking the generated draft."
-          }
-        ],
-        "response_rows": [],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match; selection order is irrelevant.",
-          "partial_credit": false
-        },
-        "explanation": "A supplies the factual input needed for grounded drafting. B supplies evidence for human validation of the actual draft. C confuses a routing output with evidence supporting factual claims. D checks an upstream output but leaves the generated response unvalidated; accurate retrieved passages do not establish that the draft represents them accurately.",
-        "provided_knowledge": [
-          "The workflow's goal, existing subtasks, current handoffs, and staff responsibility are specified.",
-          "Official sources are current; retrieval has produced relevant passages."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples generation and validation handoffs, not the full range of capability choices or workflow-design decisions in LO04."
-        ],
-        "answer_key": [
-          "A",
-          "B"
-        ],
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Multiple select",
-      "source": "Teaching video source documents",
-      "target_status": "Teacher-confirmed learning outcome; generated item-level focus.",
-      "item_version": "f4748123cd47cd51",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
-        }
-      },
-      "key_agreement": true
-    },
-    {
-      "id": "AI05",
-      "course": "ai",
-      "title": "Determine when new feedback requires further evidence gathering and human review, while distinguishing calendar access from approval of a specific calendar action.",
+      "focus": "Analyse how an agent adapts plans to tool results and user feedback, and judge whether tool actions satisfy information, authorisation and human-validation conditions.",
       "outcome": "Analyse how an agent adapts plans to tool results and user feedback, and judge whether tool actions satisfy information, authorisation and human-validation conditions.",
-      "focus": "Determine when new feedback requires further evidence gathering and human review, while distinguishing calendar access from approval of a specific calendar action.",
+      "format": "Multiple select",
       "item": {
         "question": "A student asks an agent to find official university presentation support and propose a personal practice event, requiring approval before calendar changes. The student checks evidence for a paid workshop, then says, “I now need a free resource I can use alone.” A new search result mentions a self-study checklist, but its page has not been opened. The calendar is connected; the proposed Tuesday 4:00–4:30 pm event remains unanswered.\n\nWhich TWO next actions satisfy the student's updated requirements and workflow conditions?",
-        "targeted_judgment": "Determine when new feedback requires further evidence gathering and human review, while distinguishing calendar access from approval of a specific calendar action.",
         "response_format": "multiple_select",
         "candidate_options": [
           {
@@ -408,152 +676,221 @@
           }
         ],
         "response_rows": [],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Compare selected IDs as an unordered set; award credit only for exactly A and C.",
-          "partial_credit": false
-        },
-        "explanation": "A is correct: the new requirement changes what evidence is needed; the checklist's access and suitability must be checked and its evidence reviewed before revision. B is incorrect: approval of the workshop evidence does not validate evidence for a different resource. C is correct: a connected calendar provides access, not approval, and silence does not authorise the proposed action. D is incorrect: describing an event as provisional does not remove the requirement for approval before a calendar change; later verification cannot replace prior permission.",
-        "provided_knowledge": [
-          "The student requires official university sources and approval before calendar changes.",
-          "The earlier evidence review concerned a paid workshop.",
-          "The new requirement is a free resource usable alone; the checklist page remains unchecked.",
-          "Calendar access exists, but the proposed event has received no response."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "Samples adaptation to changed requirements and the distinction between evidence review, tool access, and action approval.",
-          "Does not assess interpretation of calendar-tool success or failure responses or verification of a completed event."
-        ],
         "answer_key": [
           "A",
           "C"
         ],
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Multiple select",
-      "source": "Teaching video source documents",
-      "target_status": "Teacher-confirmed learning outcome; generated item-level focus.",
-      "item_version": "56883b048acecdaf",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
         }
       },
-      "key_agreement": true
+      "item_version": "2fecaf119e4f576a"
     },
     {
-      "id": "AI06",
+      "id": "Q017",
       "course": "ai",
-      "title": "Distinguish relevance, clarity and completeness problems in AI-generated guidance, and select a targeted revision without treating one quality criterion as a substitute for another.",
-      "outcome": "Evaluate AI-output quality and use risks against task purpose, verifiable evidence and output-evaluation criteria, choosing appropriate checking, revision or safeguards.",
-      "focus": "Distinguish relevance, clarity and completeness problems in AI-generated guidance, and select a targeted revision without treating one quality criterion as a substitute for another.",
+      "focus": "Distinguish common AI capabilities, including classification, recommendation, recognition, generation, prediction, anomaly detection, retrieval, and decision support; explain the tasks they suit; and select and apply appropriate capabilities in academic or workplace tasks, checking the resulting outputs.",
+      "outcome": "Distinguish common AI capabilities, including classification, recommendation, recognition, generation, prediction, anomaly detection, retrieval, and decision support; explain the tasks they suit; and select and apply appropriate capabilities in academic or workplace tasks, checking the resulting outputs.",
+      "format": "Single choice",
       "item": {
-        "question": "A university needs a guide showing new students how to submit travel-expense claims. It must cover receipts, submission steps and deadlines. Match each draft review finding to the most appropriate targeted revision. Preserve content already checked as correct. Use each option at most once; one option is unused.",
-        "targeted_judgment": "Distinguish relevance, clarity and completeness problems in AI-generated guidance, and select a targeted revision without treating one quality criterion as a substitute for another.",
+        "question": "A university administrator needs an AI tool to find relevant passages in approved university policies and draft a response to a student’s question using those passages. Which combination of AI capabilities and output checks is most appropriate?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Classification and prediction: Categorize the question and predict the likely answer, then check the prediction’s confidence score."
+          },
+          {
+            "id": "B",
+            "text": "Retrieval and generation: Locate relevant policy passages and draft a response, then verify its claims and citations against the current policies."
+          },
+          {
+            "id": "C",
+            "text": "Recommendation and recognition: Suggest popular policies and identify policy titles, then check whether students found the response helpful."
+          },
+          {
+            "id": "D",
+            "text": "Anomaly detection and decision support: Flag unusual questions and suggest an action, then check whether the response resembles previous answers."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "ef18568b25812906"
+    },
+    {
+      "id": "Q018",
+      "course": "ai",
+      "focus": "Use TACOS to organise and revise prompts for a stated purpose and context, aligning task, audience, context, output and source requirements.",
+      "outcome": "Use TACOS to organise and revise prompts for a stated purpose and context, aligning task, audience, context, output and source requirements.",
+      "format": "Multiple select",
+      "item": {
+        "question": "A university library needs recommendations for supervisors addressing students’ difficulty finding books. The recommendations must use only the attached student survey and appear in a two-column table: problem and proposed action.\n\nDraft prompt: “Recommend improvements for a university library where students struggle to find books. Write for student visitors. Use a two-column table: problem and proposed action. Draw on the attached survey and library websites.”\n\nWhich TWO edits align the prompt with the brief while preserving requirements already met?",
+        "response_format": "multiple_select",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Replace “student visitors” with “library supervisors.”"
+          },
+          {
+            "id": "B",
+            "text": "Replace the source instruction with “Use only the attached student survey.”"
+          },
+          {
+            "id": "C",
+            "text": "Replace the table instruction with “Write a short briefing for library supervisors.”"
+          },
+          {
+            "id": "D",
+            "text": "Replace “Recommend improvements” with “Summarise students’ reported difficulties.”"
+          }
+        ],
+        "response_rows": [],
+        "answer_key": [
+          "A",
+          "B"
+        ],
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "f349d7d19ad91d31"
+    },
+    {
+      "id": "Q019",
+      "course": "ai",
+      "focus": "Analyse how an agent adapts plans to tool results and user feedback, and judge whether tool actions satisfy information, authorisation and human-validation conditions.",
+      "outcome": "Analyse how an agent adapts plans to tool results and user feedback, and judge whether tool actions satisfy information, authorisation and human-validation conditions.",
+      "format": "Single choice",
+      "item": {
+        "question": "An agent is asked to book the cheapest direct flight under £400, but must obtain the user’s confirmation before purchasing. Its search tool finds a £350 direct flight, but a price-check tool reports that the fare has risen to £430. The user then says, “A flight with one stop is fine, but keep the £400 limit.”\n\nWhat should the agent do next?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Purchase the £430 direct flight because it was initially within budget."
+          },
+          {
+            "id": "B",
+            "text": "Search for flights with up to one stop under £400, verify the selected fare, and ask the user to confirm before purchasing."
+          },
+          {
+            "id": "C",
+            "text": "Purchase the cheapest one-stop flight under £400 because the user has authorised the revised search criteria."
+          },
+          {
+            "id": "D",
+            "text": "Ask the user to confirm the £350 fare without mentioning the price-check result."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "d2982b164526a0e7"
+    },
+    {
+      "id": "Q020",
+      "course": "team",
+      "focus": "Distinguish a standing structure that prevents destructive conflict from its use to support people in a current conflict; recognise that one arrangement can serve both functions.",
+      "outcome": "Distinguish a standing structure that prevents destructive conflict from its use to support people in a current conflict; recognise that one arrangement can serve both functions.",
+      "format": "Matching",
+      "item": {
+        "question": "A team introduces a weekly review where staff can discuss mistakes without blame. The manager intends this routine to build openness and reduce damaging disputes. Later, two colleagues whose disagreement has stalled a handover use a review to explain their concerns; teammates help them restart dialogue.\n\nClassify each aspect below by its conflict-management function. Choose one category per row. Categories may be used more than once.",
         "response_format": "matching",
         "candidate_options": [
           {
             "id": "A",
-            "text": "Improve completeness: add the missing required information."
+            "text": "Preventative only"
           },
           {
             "id": "B",
-            "text": "Improve accuracy: replace incorrect claims using current university policy."
+            "text": "Curative only"
           },
           {
             "id": "C",
-            "text": "Improve relevance: redirect the content toward the requested practical task."
-          },
-          {
-            "id": "D",
-            "text": "Improve clarity: explain unfamiliar terms in student-friendly language."
+            "text": "Both preventative and curative"
           }
         ],
         "response_rows": [
           {
             "id": "R1",
-            "text": "The draft accurately describes the history of university travel funding, but gives no claim instructions."
+            "text": "Establishing the routine to build openness and reduce damaging disputes."
           },
           {
             "id": "R2",
-            "text": "All required information matches policy, but unexplained administrative terminology makes instructions difficult for new students."
+            "text": "Helping the two colleagues restart dialogue about their stalled handover."
           },
           {
             "id": "R3",
-            "text": "Receipt requirements and submission steps are correct and understandable; the required deadline is absent."
+            "text": "The review arrangement, considering both its establishment and its use here."
           }
         ],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match on row-to-option mappings; mapping order is immaterial.",
-          "partial_credit": false,
-          "response_ids": [
-            "R1",
-            "R2",
-            "R3"
-          ]
-        },
-        "explanation": "R1–C: Accurate background does not serve the requested instructional purpose; the draft needs redirection, not just an additional detail. R2–D: The information is complete and policy-checked, so explaining terminology addresses the audience's difficulty without changing verified facts. R3–A: The draft addresses the task but omits a required element, so adding the deadline addresses completeness. B is unused: no finding identifies an incorrect factual claim, and an absent fact is not the same as a false one.",
-        "provided_knowledge": [
-          "The guide's audience, purpose and required coverage are stated.",
-          "Review findings specify what has been checked and what remains problematic."
-        ],
-        "removed_knowledge": [
-          "No definitions of the evaluation criteria are supplied in the scenario; learners must distinguish their application."
-        ],
-        "limitations": [
-          "This item samples targeted revisions for relevance, clarity and completeness; it does not assess the full outcome's risk, evidence-verification or safeguard dimensions."
-        ],
         "answer_key": {
-          "R1": "C",
-          "R2": "D",
-          "R3": "A"
+          "R1": "A",
+          "R2": "B",
+          "R3": "C"
         },
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Matching",
-      "source": "Teaching video source documents",
-      "target_status": "Teacher-confirmed learning outcome; generated item-level focus.",
-      "item_version": "3dc4b3a8f4240c27",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": true
         }
       },
-      "key_agreement": true
+      "item_version": "f0ddab194bb406ed"
     },
     {
-      "id": "AI07",
+      "id": "Q021",
+      "course": "team",
+      "focus": "Distinguish improving the means to achieve a fixed goal from using an inventory of existing capabilities and resources to explore alternative goals, within organisational constraints.",
+      "outcome": "Distinguish improving the means to achieve a fixed goal from using an inventory of existing capabilities and resources to explore alternative goals, within organisational constraints.",
+      "format": "Single choice",
+      "item": {
+        "question": "A college team reliably delivers staff software workshops. Its manager may propose different staff-support services, but must use existing resources and retain the scheduled workshops until any change is approved. She wants the team's capabilities to inform what it might achieve, rather than simply improve workshop delivery. Which plan best fits?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Review the team's skills and equipment, then use these to redesign workshops so more staff complete the existing programme."
+          },
+          {
+            "id": "B",
+            "text": "Choose an individual coaching service, then identify the skills and equipment needed to seek approval for its launch."
+          },
+          {
+            "id": "C",
+            "text": "Review available skills and equipment, develop possible support services, and assess suitable proposals for approval while maintaining workshops."
+          },
+          {
+            "id": "D",
+            "text": "Review available skills and equipment, then replace some scheduled workshops with trial services to establish which alternatives work."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "C",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "22a7b6f9e0ddc8c5"
+    },
+    {
+      "id": "Q022",
       "course": "ai",
-      "title": "Distinguish retrieval, classification, and generation by whether a subtask requires finding existing information, assigning a predefined category, or composing new wording from checked facts.",
+      "focus": "Distinguish common AI capabilities, including classification, recommendation, recognition, generation, prediction, anomaly detection, retrieval, and decision support; explain the tasks they suit; and select and apply appropriate capabilities in academic or workplace tasks, checking the resulting outputs.",
       "outcome": "Distinguish common AI capabilities, including classification, recommendation, recognition, generation, prediction, anomaly detection, retrieval, and decision support; explain the tasks they suit; and select and apply appropriate capabilities in academic or workplace tasks, checking the resulting outputs.",
-      "focus": "Distinguish retrieval, classification, and generation by whether a subtask requires finding existing information, assigning a predefined category, or composing new wording from checked facts.",
+      "format": "Matching",
       "item": {
         "question": "A university help desk is adding AI support. Match each subtask to the capability that best fits its input and required output. Choose one capability per row; choices may be reused or left unused. Staff will check results against official information before use.",
-        "targeted_judgment": "Distinguish retrieval, classification, and generation by whether a subtask requires finding existing information, assigning a predefined category, or composing new wording from checked facts.",
         "response_format": "matching",
         "candidate_options": [
           {
@@ -587,290 +924,134 @@
             "text": "Given staff-checked handbook facts, compose a short, welcoming reply that explains them to the student."
           }
         ],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": true,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match: all three mappings must be correct.",
-          "partial_credit": false,
-          "response_ids": [
-            "R1",
-            "R2",
-            "R3"
-          ]
-        },
-        "explanation": "R1 → B: Retrieval locates existing source material; the requested output is a handbook passage, not a newly written answer or a suggested resource. R2 → A: Classification assigns messages to predefined categories rather than finding passages or suggesting what a student should use. R3 → C: Generation composes new wording from checked facts rather than returning an existing passage. D is unused: none of the subtasks asks for suggestions of suitable resources or options.",
-        "provided_knowledge": [
-          "The scenario supplies each subtask's input and required output.",
-          "Staff check results against official information before use; the facts supplied for drafting have already been checked."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples three capability distinctions, not all capabilities in the approved outcome.",
-          "It assesses capability selection, not actual tool use or learners' ability to perform output verification."
-        ],
         "answer_key": {
           "R1": "B",
           "R2": "A",
           "R3": "C"
         },
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Matching",
-      "source": "Teaching video source documents",
-      "target_status": "Teacher-confirmed learning outcome; generated item-level focus.",
-      "item_version": "ff51d2d7d2cc64b8",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
-        }
-      },
-      "key_agreement": true
-    },
-    {
-      "id": "TEAM01",
-      "course": "team",
-      "title": "Select a change to meeting process, rather than topics, that fits the different engagement needs of agenda items and the participation pattern.",
-      "outcome": "Distinguish a change to meeting topics from a change to how participants examine and discuss those topics; select a process adjustment suited to the stated meeting need.",
-      "focus": "Select a change to meeting process, rather than topics, that fits the different engagement needs of agenda items and the participation pattern.",
-      "item": {
-        "question": "A team meeting must cover routine progress reports and a disputed scheduling proposal. Reports need only factual clarification; the proposal needs examination from several perspectives. The same two members usually dominate discussion. Which revision best addresses these needs?",
-        "targeted_judgment": "Select a change to meeting process, rather than topics, that fits the different engagement needs of agenda items and the participation pattern.",
-        "response_format": "single_choice",
-        "candidate_options": [
-          {
-            "id": "A",
-            "text": "Replace individual progress reports with a combined report and split the scheduling proposal into smaller agenda topics, retaining the usual discussion approach."
-          },
-          {
-            "id": "B",
-            "text": "Keep both topics, allow clarification after reports, and agree ground rules for examining the proposal that give each member space to contribute."
-          },
-          {
-            "id": "C",
-            "text": "Keep both topics and agree that every item receives a full dialogue, with each member contributing before the team moves on."
-          },
-          {
-            "id": "D",
-            "text": "Keep both topics, allow clarification after reports, and let the two most vocal members debate the proposal before others ask questions."
-          }
-        ],
-        "response_rows": [],
-        "shared_comparison_attributes": [],
         "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match",
-          "partial_credit": false
-        },
-        "explanation": "B adjusts how participants engage, matching clarification to reports and wider examination to the proposal while addressing dominant voices. A changes the organisation of content but retains the problematic meeting style. C changes the process but assumes every item needs full dialogue, despite the reports needing only clarification. D distinguishes the agenda items but preserves dominance and gives other members only a questioning role rather than space to contribute perspectives.",
-        "provided_knowledge": [
-          "Both agenda topics must be covered.",
-          "Reports require factual clarification, while the proposal requires several perspectives.",
-          "Two members usually dominate discussion."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples selecting a suitable process adjustment; it does not assess the learner's ability to facilitate dialogue or formulate detailed ground rules.",
-          "No principles from the unavailable interactive exercise are assumed."
-        ],
-        "answer_key": "B",
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Single choice",
-      "source": "OpenLearn BG012_1, PDF pages 8, 9, 10",
-      "target_status": "Source-grounded author draft; not yet individually confirmed by an instructor.",
-      "item_version": "0527bee7d1dbbf73",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
-        }
-      },
-      "key_agreement": true
-    },
-    {
-      "id": "TEAM02",
-      "course": "team",
-      "title": "Distinguish the preventative function of establishing an open team routine from the curative function of using it to support colleagues in an existing conflict, and recognise that the arrangement can serve both functions.",
-      "outcome": "Distinguish a standing structure that prevents destructive conflict from its use to support people in a current conflict; recognise that one arrangement can serve both functions.",
-      "focus": "Distinguish the preventative function of establishing an open team routine from the curative function of using it to support colleagues in an existing conflict, and recognise that the arrangement can serve both functions.",
-      "item": {
-        "question": "A team introduces a weekly review where staff can discuss mistakes without blame. The manager intends this routine to build openness and reduce damaging disputes. Later, two colleagues whose disagreement has stalled a handover use a review to explain their concerns; teammates help them restart dialogue.\n\nClassify each aspect below by its conflict-management function. Choose one category per row. Categories may be used more than once.",
-        "targeted_judgment": "Distinguish the preventative function of establishing an open team routine from the curative function of using it to support colleagues in an existing conflict, and recognise that the arrangement can serve both functions.",
-        "response_format": "matching",
-        "candidate_options": [
-          {
-            "id": "A",
-            "text": "Preventative only"
-          },
-          {
-            "id": "B",
-            "text": "Curative only"
-          },
-          {
-            "id": "C",
-            "text": "Both preventative and curative"
-          }
-        ],
-        "response_rows": [
-          {
-            "id": "R1",
-            "text": "Establishing the routine to build openness and reduce damaging disputes."
-          },
-          {
-            "id": "R2",
-            "text": "Helping the two colleagues restart dialogue about their stalled handover."
-          },
-          {
-            "id": "R3",
-            "text": "The review arrangement, considering both its establishment and its use here."
-          }
-        ],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": true,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match: all three mappings must be correct.",
           "partial_credit": false,
-          "response_ids": [
-            "R1",
-            "R2",
-            "R3"
-          ]
-        },
-        "explanation": "R1–A: Establishing a routine that encourages openness is preventative; this aspect does not itself describe support for a particular current conflict. R2–B: Helping colleagues through their existing disagreement is curative; this aspect concerns the current intervention rather than establishing the standing structure. R3–C: The arrangement serves both functions through its establishment and subsequent use. Treating the whole arrangement as exclusively preventative or curative overlooks one of those functions.",
-        "provided_knowledge": [
-          "The routine is intended to build openness and reduce damaging disputes.",
-          "An existing disagreement has stalled a handover, and teammates use the routine to help the colleagues restart dialogue."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples classification of preventative and curative functions; it does not establish whether a learner can design or conduct an effective conflict intervention.",
-          "No inference about the eventual resolution of the handover dispute is required."
-        ],
-        "answer_key": {
-          "R1": "A",
-          "R2": "B",
-          "R3": "C"
-        },
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Matching",
-      "source": "OpenLearn BG012_1, PDF pages 11, 12, 13",
-      "target_status": "Source-grounded author draft; not yet individually confirmed by an instructor.",
-      "item_version": "1c43a6a5cc1b0fa9",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 3
+          "reuse_allowed": true
         }
       },
-      "key_agreement": true
+      "item_version": "7201bce5dc6c9dcc"
     },
     {
-      "id": "TEAM03",
-      "course": "team",
-      "title": "Recognise when monitored self-resolution should shift to facilitated communication, rather than continuing an ineffective approach, withdrawing oversight, or imposing an unnecessarily visible resolution.",
-      "outcome": "Choose a proportionate managerial response to the described development of conflict, distinguishing monitored self-resolution from abandonment and adapting intervention as circumstances change.",
-      "focus": "Recognise when monitored self-resolution should shift to facilitated communication, rather than continuing an ineffective approach, withdrawing oversight, or imposing an unnecessarily visible resolution.",
+      "id": "Q023",
+      "course": "ai",
+      "focus": "Use TACOS to organise and revise prompts for a stated purpose and context, aligning task, audience, context, output and source requirements.",
+      "outcome": "Use TACOS to organise and revise prompts for a stated purpose and context, aligning task, audience, context, output and source requirements.",
+      "format": "Single choice",
       "item": {
-        "question": "Two colleagues disagree about dividing project work. Both initially ask to settle it themselves, so their manager agrees and checks progress privately. A week later, they have stopped discussing the division and each is waiting for the other to restart. Work is beginning to slip, but both remain willing to talk privately. Which response is most proportionate now?",
-        "targeted_judgment": "Recognise when monitored self-resolution should shift to facilitated communication, rather than continuing an ineffective approach, withdrawing oversight, or imposing an unnecessarily visible resolution.",
+        "question": "A teacher wants an AI to create a short explanation of the water cycle for Year 5 students, using only a supplied textbook extract. Which revised prompt best aligns with all five TACOS elements—Task, Audience, Context, Output and Sources?",
         "response_format": "single_choice",
         "candidate_options": [
           {
             "id": "A",
-            "text": "Keep the existing private progress checks, leaving the colleagues to decide when to restart discussions."
+            "text": "“Explain the water cycle in detail, using scientific vocabulary and any reliable sources.”"
           },
           {
             "id": "B",
-            "text": "Arrange a private conversation to help them restart discussions, then check whether their agreement restores progress."
+            "text": "“Write a water-cycle explanation for Year 5 students using the supplied textbook extract. Include as much information as possible.”"
           },
           {
             "id": "C",
-            "text": "Announce a manager-decided division at the next team meeting, then check whether both colleagues follow it."
+            "text": "“Using only the supplied textbook extract, explain the water cycle to Year 5 students revising their science lesson. Write 120–150 words in simple language, covering evaporation, condensation and precipitation.”"
           },
           {
             "id": "D",
-            "text": "Suspend progress checks to give them space, asking them to report back when they have settled the division."
+            "text": "“Using the supplied textbook extract, produce a 150-word explanation of the water cycle for science teachers planning a lesson.”"
           }
         ],
         "response_rows": [],
-        "shared_comparison_attributes": [],
+        "answer_key": "C",
         "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match",
-          "partial_credit": false
-        },
-        "explanation": "B adapts the approach as the conflict develops: communication has stalled, so private facilitation with follow-up is proportionate. A retains monitoring but does not address the newly stalled communication. C imposes a visible managerial solution despite both colleagues remaining willing to talk privately. D mistakes supporting self-resolution for withdrawing oversight while work is slipping. The source supports monitored self-resolution, facilitation of communication, and changing the approach as circumstances develop (BG012_p13).",
-        "provided_knowledge": [
-          "The manager initially supported self-resolution and monitored progress.",
-          "Communication has now stalled and work is beginning to slip.",
-          "Both colleagues remain willing to talk privately."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples the decision to move from monitored self-resolution to private facilitation; it does not assess the full range of conflict interventions or establish attainment of the whole proposed target."
-        ],
-        "answer_key": "B",
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Single choice",
-      "source": "OpenLearn BG012_1, PDF pages 13",
-      "target_status": "Source-grounded author draft; not yet individually confirmed by an instructor.",
-      "item_version": "610671b279f07803",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
+          "partial_credit": false,
+          "reuse_allowed": false
         }
       },
-      "key_agreement": true
+      "item_version": "23d31319f50fd723"
     },
     {
-      "id": "TEAM04",
+      "id": "Q024",
       "course": "team",
-      "title": "Distinguish a time-constrained reciprocal concession from a jointly developed solution addressing both parties’ concerns, while recognising that the initial compromise can be defensible.",
+      "focus": "Distinguish a change to meeting topics from a change to how participants examine and discuss those topics; select a process adjustment suited to the stated meeting need.",
+      "outcome": "Distinguish a change to meeting topics from a change to how participants examine and discuss those topics; select a process adjustment suited to the stated meeting need.",
+      "format": "Single choice",
+      "item": {
+        "question": "A team’s weekly meetings cover the right topics, but members often support the first suggestion without considering alternatives. Which adjustment would best address this problem?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Add a project update to the agenda."
+          },
+          {
+            "id": "B",
+            "text": "Replace the budget review with a customer feedback report."
+          },
+          {
+            "id": "C",
+            "text": "Require the team to compare at least two options before making each decision."
+          },
+          {
+            "id": "D",
+            "text": "Discuss next month’s priorities instead of this month’s results."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "C",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "5715f5ad25964a69"
+    },
+    {
+      "id": "Q025",
+      "course": "ai",
+      "focus": "Explain the relationships among AI, generative AI, chatbots and prompts, and distinguish their roles in practical AI use.",
+      "outcome": "Explain the relationships among AI, generative AI, chatbots and prompts, and distinguish their roles in practical AI use.",
+      "format": "Single choice",
+      "item": {
+        "question": "Which statement correctly describes the relationships among AI, generative AI, chatbots, and prompts?",
+        "response_format": "single_choice",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "AI and generative AI are the same; chatbots store information, and prompts are their responses."
+          },
+          {
+            "id": "B",
+            "text": "Generative AI is a type of AI that creates content; chatbots are conversational applications that may use it, and prompts are inputs that guide its responses."
+          },
+          {
+            "id": "C",
+            "text": "All AI systems are chatbots; generative AI supplies their prompts, and users create their responses."
+          },
+          {
+            "id": "D",
+            "text": "Chatbots always use generative AI; prompts are instructions used only to train them."
+          }
+        ],
+        "response_rows": [],
+        "answer_key": "B",
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "3aff0bffdf067414"
+    },
+    {
+      "id": "Q026",
+      "course": "team",
+      "focus": "Distinguish reciprocal concessions from a jointly developed solution addressing both parties concerns, without assuming compromise is always wrong or collaboration always feasible.",
       "outcome": "Distinguish reciprocal concessions from a jointly developed solution addressing both parties concerns, without assuming compromise is always wrong or collaboration always feasible.",
-      "focus": "Distinguish a time-constrained reciprocal concession from a jointly developed solution addressing both parties’ concerns, while recognising that the initial compromise can be defensible.",
+      "format": "Single choice",
       "item": {
         "question": "A support team must set tomorrow’s rota in ten minutes. Jo wants continuous phone coverage; Ren wants uninterrupted time for complex cases. With no time to test alternatives, each accepts less of their preferred allocation so the rota can be issued. Next week, they have time to examine the problem together. They challenge their assumptions and jointly develop rotating phone duty with protected casework periods, meeting both concerns.\n\nWhich interpretation is best supported?",
-        "targeted_judgment": "Distinguish a time-constrained reciprocal concession from a jointly developed solution addressing both parties’ concerns, while recognising that the initial compromise can be defensible.",
         "response_format": "single_choice",
         "candidate_options": [
           {
@@ -891,273 +1072,102 @@
           }
         ],
         "response_rows": [],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match.",
-          "partial_credit": false
-        },
-        "explanation": "B is correct: the immediate agreement involves reciprocal concessions under a stated deadline, whereas the later solution is jointly developed through dialogue and addresses both concerns. A confuses agreement alone with collaboration. C treats dividing time as sufficient evidence of compromise, overlooking how the later solution was developed and what it achieves. D assumes compromise is unacceptable and disregards the requirement to issue the rota. The course allows compromise to be useful while encouraging exploration of collaborative solutions (BG012_p14–15, BG012_p21).",
-        "provided_knowledge": [
-          "The immediate deadline and lack of time to test alternatives.",
-          "The concerns of both team members, their initial concessions, and the later joint examination and solution."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "Assesses interpretation of one bounded two-stage case, not the learner’s ability to facilitate collaboration or determine its feasibility across workplaces."
-        ],
         "answer_key": "B",
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
       },
+      "item_version": "0719877884d4b871"
+    },
+    {
+      "id": "Q027",
+      "course": "team",
+      "focus": "Distinguish a standing structure that prevents destructive conflict from its use to support people in a current conflict; recognise that one arrangement can serve both functions.",
+      "outcome": "Distinguish a standing structure that prevents destructive conflict from its use to support people in a current conflict; recognise that one arrangement can serve both functions.",
       "format": "Single choice",
-      "source": "OpenLearn BG012_1, PDF pages 14, 15, 21",
-      "target_status": "Source-grounded author draft; not yet individually confirmed by an instructor.",
-      "item_version": "68b500fc007e55a7",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 3
-        }
-      },
-      "key_agreement": true
-    },
-    {
-      "id": "TEAM05",
-      "course": "team",
-      "title": "Distinguish critical testing of a proposal from advocacy for an assigned contender, and recognise that equal preparation time does not resolve a major power imbalance between idea advocates.",
-      "outcome": "Distinguish the devil advocate role of testing a proposal assumptions from an idea advocate role of presenting the case for an assigned contender, and recognise power imbalance as a limitation of the latter.",
-      "focus": "Distinguish critical testing of a proposal from advocacy for an assigned contender, and recognise that equal preparation time does not resolve a major power imbalance between idea advocates.",
       "item": {
-        "question": "A team has shortlisted three staff-scheduling proposals. First, Maya is asked to examine one proposal’s assumptions and check its analysis for inconsistencies. Later, each proposal is assigned a presenter to make its strongest case. One presenter is a director; the other two are junior employees whose promotion the director controls. All receive equal preparation time.\n\nWhich conclusions are supported by the course? Select all that apply.",
-        "targeted_judgment": "Distinguish critical testing of a proposal from advocacy for an assigned contender, and recognise that equal preparation time does not resolve a major power imbalance between idea advocates.",
-        "response_format": "multiple_select",
-        "candidate_options": [
-          {
-            "id": "A",
-            "text": "Maya’s initial assignment fits the devil’s advocate role."
-          },
-          {
-            "id": "B",
-            "text": "The presenters’ assignments fit the idea advocate role."
-          },
-          {
-            "id": "C",
-            "text": "The director’s authority creates a limitation for the advocacy arrangement."
-          },
-          {
-            "id": "D",
-            "text": "Equal preparation time adequately addresses the presenters’ power differences."
-          },
-          {
-            "id": "E",
-            "text": "The presenters should primarily identify weaknesses in their assigned proposals."
-          }
-        ],
-        "response_rows": [],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match; selection order is irrelevant.",
-          "partial_credit": false
-        },
-        "explanation": "A is correct: a devil’s advocate critically examines a proposal’s assumptions and analysis. B is correct: idea advocates present the case for their assigned contenders. C is correct: the course cautions against major status or power differences between idea advocates; control over promotion establishes such a difference. D is incorrect: preparation time supports case development but does not remove that power imbalance. E is incorrect: it substitutes the adverse critic’s emphasis for the idea advocate’s task of presenting a case for an assigned idea.",
-        "provided_knowledge": [
-          "Three proposals have already been shortlisted.",
-          "The scenario specifies the critical-testing assignment, presentation assignments, preparation time and reporting-related power difference."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples role recognition and recognition of a power-related limitation; it does not assess implementation of either technique or establish mastery of the whole outcome."
-        ],
-        "answer_key": [
-          "A",
-          "B",
-          "C"
-        ],
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Multiple select",
-      "source": "OpenLearn BG012_1, PDF pages 16, 18",
-      "target_status": "Source-grounded author draft; not yet individually confirmed by an instructor.",
-      "item_version": "c18544393d70db07",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
-        }
-      },
-      "key_agreement": true
-    },
-    {
-      "id": "TEAM06",
-      "course": "team",
-      "title": "Determine the dependency chain from making a plan’s assumptions explicit, through developing and examining a counter-plan grounded in counter-assumptions, to establishing shared, scrutinised assumptions for a new plan.",
-      "outcome": "Determine the necessary dependencies between articulating a plan assumptions, constructing a counter-plan using counter-assumptions, examining both, and developing shared tested assumptions for a new plan.",
-      "focus": "Determine the dependency chain from making a plan’s assumptions explicit, through developing and examining a counter-plan grounded in counter-assumptions, to establishing shared, scrutinised assumptions for a new plan.",
-      "item": {
-        "question": "A library team is using dialectical inquiry to plan evening opening hours. Put these four work packages in the order required by the method, from first to last. Each package is completed once.",
-        "targeted_judgment": "Determine the dependency chain from making a plan’s assumptions explicit, through developing and examining a counter-plan grounded in counter-assumptions, to establishing shared, scrutinised assumptions for a new plan.",
-        "response_format": "ordering",
-        "candidate_options": [
-          {
-            "id": "A",
-            "text": "Present both plans and their supporting evidence to the review group; probe weaknesses and identify overlooked assumptions."
-          },
-          {
-            "id": "B",
-            "text": "Jointly pool and scrutinise assumptions, reconcile or test competing ones where possible, and use agreed core assumptions to develop a new plan."
-          },
-          {
-            "id": "C",
-            "text": "Develop an evening-opening proposal and give its key underlying assumptions to the counter-proposal group."
-          },
-          {
-            "id": "D",
-            "text": "Develop an alternative plan by finding plausible counter-assumptions and using them to uncover or reinterpret evidence."
-          }
-        ],
-        "response_rows": [],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "first_to_last",
-          "tie_policy": "forbid",
-          "reuse_allowed": false,
-          "accepted_orders": [
-            [
-              "C",
-              "D",
-              "A",
-              "B"
-            ]
-          ],
-          "normalisation": "Whole-item exact match.",
-          "partial_credit": false
-        },
-        "explanation": "C precedes D because the counter-proposal group works from the original plan’s explicit assumptions. D precedes A because both plans and their supporting assumptions must be available for examination. A precedes B because the joint work draws on assumptions exposed and challenged during the debate. B culminates in agreed core assumptions that support a new plan; it is not simply a choice between the original plans. The source permits reconciliation or testing where possible, rather than requiring an empirical test of every assumption.",
-        "provided_knowledge": [
-          "The workplace setting and the decision to use dialectical inquiry.",
-          "Four work packages to be sequenced, without their chronological positions."
-        ],
-        "removed_knowledge": [
-          "The source’s numbered sequence and explicit chronological transitions."
-        ],
-        "limitations": [
-          "This item samples recognition of the method’s dependencies, not the ability to generate plausible counter-assumptions or conduct a productive debate.",
-          "It does not assess group formation, facilitation or organisational adaptation."
-        ],
-        "answer_key": [
-          "C",
-          "D",
-          "A",
-          "B"
-        ],
-        "serialization_version": "v2",
-        "normalisation_record": "Ordering serialization repair: flattened the four explicit singleton rank_groups; identical to the model explicit accepted_orders. Raw provider response retained; no semantic answer inference."
-      },
-      "format": "Ordering",
-      "source": "OpenLearn BG012_1, PDF pages 16, 17",
-      "target_status": "Source-grounded author draft; not yet individually confirmed by an instructor.",
-      "item_version": "a00b3b92ab0859d2",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
-        }
-      },
-      "key_agreement": true
-    },
-    {
-      "id": "TEAM07",
-      "course": "team",
-      "title": "Select a resource-led exploration of alternative team goals while respecting organisational limits, distinguishing it from improving delivery of a fixed goal or acquiring resources for a predetermined new goal.",
-      "outcome": "Distinguish improving the means to achieve a fixed goal from using an inventory of existing capabilities and resources to explore alternative goals, within organisational constraints.",
-      "focus": "Select a resource-led exploration of alternative team goals while respecting organisational limits, distinguishing it from improving delivery of a fixed goal or acquiring resources for a predetermined new goal.",
-      "item": {
-        "question": "A college team reliably delivers staff software workshops. Its manager may propose different staff-support services, but must use existing resources and retain the scheduled workshops until any change is approved. She wants the team's capabilities to inform what it might achieve, rather than simply improve workshop delivery. Which plan best fits?",
-        "targeted_judgment": "Select a resource-led exploration of alternative team goals while respecting organisational limits, distinguishing it from improving delivery of a fixed goal or acquiring resources for a predetermined new goal.",
+        "question": "A town has a permanent mediation council that sets rules for resolving disputes peacefully. When a conflict arises between two neighbourhoods, the council helps residents reach an agreement.\n\nWhich statement best describes the council’s role?",
         "response_format": "single_choice",
         "candidate_options": [
           {
             "id": "A",
-            "text": "Review the team's skills and equipment, then use these to redesign workshops so more staff complete the existing programme."
+            "text": "It only prevents future destructive conflict."
           },
           {
             "id": "B",
-            "text": "Choose an individual coaching service, then identify the skills and equipment needed to seek approval for its launch."
+            "text": "It only supports people during the current conflict."
           },
           {
             "id": "C",
-            "text": "Review available skills and equipment, develop possible support services, and assess suitable proposals for approval while maintaining workshops."
+            "text": "It both provides a standing structure to prevent destructive conflict and supports people during the current conflict."
           },
           {
             "id": "D",
-            "text": "Review available skills and equipment, then replace some scheduled workshops with trial services to establish which alternatives work."
+            "text": "It serves neither function because residents must resolve conflicts themselves."
           }
         ],
         "response_rows": [],
-        "shared_comparison_attributes": [],
-        "scoring": {
-          "direction": "not_applicable",
-          "tie_policy": "not_applicable",
-          "reuse_allowed": false,
-          "accepted_orders": [],
-          "normalisation": "Whole-item exact match",
-          "partial_credit": false
-        },
-        "explanation": "C starts with existing means, uses them to explore alternative services, and preserves the required workshops pending approval. A uses a resource review only to improve achievement of the existing goal. B fixes a new goal before identifying the means to achieve it. D explores alternatives from existing means but breaches the requirement to retain scheduled workshops until approval.",
-        "provided_knowledge": [
-          "The team currently delivers staff software workshops successfully.",
-          "Alternative staff-support services may be proposed using existing resources.",
-          "Scheduled workshops must continue until a change is approved."
-        ],
-        "removed_knowledge": [],
-        "limitations": [
-          "This item samples recognition of a resource-led, constraint-respecting development plan; it does not assess learners' ability to inventory resources or develop viable alternative goals themselves.",
-          "Evidence is limited to the supplied text on pages 19–20; no unavailable audio content is assumed."
-        ],
         "answer_key": "C",
-        "serialization_version": "v2",
-        "normalisation_record": "Typed answer fields converted to runtime representation, no answer inference."
-      },
-      "format": "Single choice",
-      "source": "OpenLearn BG012_1, PDF pages 19, 20",
-      "target_status": "Source-grounded author draft; not yet individually confirmed by an instructor.",
-      "item_version": "5adfd239d113a8e0",
-      "llm": {
-        "alignment": {
-          "score": 5
-        },
-        "answer_validity": {
-          "score": 5
-        },
-        "item_quality": {
-          "score": 4
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
         }
       },
-      "key_agreement": true
+      "item_version": "d53cef2630ce90c8"
+    },
+    {
+      "id": "Q028",
+      "course": "ai",
+      "focus": "Evaluate AI-output quality and use risks against task purpose, verifiable evidence and output-evaluation criteria, choosing appropriate checking, revision or safeguards.",
+      "outcome": "Evaluate AI-output quality and use risks against task purpose, verifiable evidence and output-evaluation criteria, choosing appropriate checking, revision or safeguards.",
+      "format": "Matching",
+      "item": {
+        "question": "A university needs a guide showing new students how to submit travel-expense claims. It must cover receipts, submission steps and deadlines. Match each draft review finding to the most appropriate targeted revision. Preserve content already checked as correct. Use each option at most once; one option is unused.",
+        "response_format": "matching",
+        "candidate_options": [
+          {
+            "id": "A",
+            "text": "Improve completeness: add the missing required information."
+          },
+          {
+            "id": "B",
+            "text": "Improve accuracy: replace incorrect claims using current university policy."
+          },
+          {
+            "id": "C",
+            "text": "Improve relevance: redirect the content toward the requested practical task."
+          },
+          {
+            "id": "D",
+            "text": "Improve clarity: explain unfamiliar terms in student-friendly language."
+          }
+        ],
+        "response_rows": [
+          {
+            "id": "R1",
+            "text": "The draft accurately describes the history of university travel funding, but gives no claim instructions."
+          },
+          {
+            "id": "R2",
+            "text": "All required information matches policy, but unexplained administrative terminology makes instructions difficult for new students."
+          },
+          {
+            "id": "R3",
+            "text": "Receipt requirements and submission steps are correct and understandable; the required deadline is absent."
+          }
+        ],
+        "answer_key": {
+          "R1": "C",
+          "R2": "D",
+          "R3": "A"
+        },
+        "scoring": {
+          "partial_credit": false,
+          "reuse_allowed": false
+        }
+      },
+      "item_version": "039050663a42437e"
     }
   ]
 }

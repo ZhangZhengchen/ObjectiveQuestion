@@ -1,8 +1,12 @@
-# Objective question authoring for an introductory AI course
+# Objective-question authoring: masked expert comparison
 
-- index.html: minimal expert rating form, 14 items (7 AI main-study + 7 supplementary), three dimensions, four reviewer IDs, browser-local save and versioned JSON export.
-- questions.html: the primary AI-course targets/items and a brief team-course extensibility example, reference answers, preliminary model ratings, source links, retrospective team-course short-answer counterparts, and actual authoring prompts.
+Main case: introductory AI course. Supplement: team-development course. Each course has seven shared targets and one item per target from each of two authoring approaches: 28 questions total.
 
-The primary contribution is AI-course authoring; the second course is a small extensibility illustration. No method comparison, no expert results yet, and no empirical student-difficulty claim. Old routes lead to these two pages. Original source documents, private logs, and authoring-system code remain local.
+- index.html: neutral-ID expert review, three dimensions, four reviewer IDs, browser-local save and JSON export.
+- questions.html: targets/questions/reference keys and global prompt transparency. Item-to-method mapping, previous method-specific traces and LLM scores are withheld from this release.
 
-Dataset version: oq-two-courses-14-ddc94324eddc
+Same-model proposed-workflow diagnostics exist locally; comparative expert results are pending. Neutral numbering hides method labels, but response format remains visible. A new dataset version protects earlier browser records; old exports are not silently migrated.
+
+Dataset: oq-blind28-3374dd5b8c75
+
+Authoring code, raw teaching documents and private mapping are not uploaded. Historical commits may contain earlier demonstrations; reviewers should use the current form and avoid repository history until ratings are complete.
