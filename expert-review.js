@@ -1,6 +1,7 @@
 'use strict';
 (async()=>{
 const D=await (await fetch('expert-data.json?v=oq-blind28-3374dd5b8c75')).json(),$=id=>document.getElementById(id);
+D.items.sort((a,b)=>(a.course==='ai'?0:1)-(b.course==='ai'?0:1));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let position=0,expert='',records={};
 const current=()=>D.items[position],storage=()=>`oq-review:${D.version}:${expert}`;
