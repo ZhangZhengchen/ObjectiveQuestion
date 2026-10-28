@@ -10,3 +10,5 @@ Same-model proposed-workflow diagnostics exist locally; comparative expert resul
 Dataset: oq-blind28-3374dd5b8c75
 
 Authoring code, raw teaching documents and private mapping are not uploaded. Historical commits may contain earlier demonstrations; reviewers should use the current form and avoid repository history until ratings are complete.
+
+- prompts.html and prompt-protocol.json: exact global generation/evaluation instructions, settings, schemas and anonymised input templates. Comparative model scores and private mappings remain local during expert review.
