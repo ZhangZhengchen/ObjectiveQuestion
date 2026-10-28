@@ -1,20 +1,7 @@
-# ObjectiveQuestion
+# Objective question authoring
 
-The public demonstration contains three sets of ten English questions:
+The current method is the concept-relation-guided AI-course authoring specification (28 October 2026). See index.html, method.html and study.html. The planned 60-item, three-condition experiment has not been run. Expert results are pending.
 
-- **Expert review:** AI Literacy (10) and MIT 6.005 Software Construction (10).
-- **Scalability illustration:** Inclusive Teaching and Learning (10), with no expert-rating task. INC02 and INC06 use the locally revised targets and questions.
+questions.html retains 30 earlier development items. legacy-review.html preserves the earlier 20-item, two-course, three-aspect review, including its existing browser storage namespace. These are not revised-study evidence. guide.html documents that legacy rubric. The new four-aspect CSV is a blank template, not results.
 
-## Pages
-
-- `index.html`: four-expert review of the 20 study questions using three aspects.
-- `questions.html`: all three current sets, with targets, sources, answers and five-stage design records.
-- `questions.html#scalability`: the ten inclusive-teaching illustrations.
-- `method.html`: worked AI-literacy example (AI04: review of a public AI-drafted notice).
-- `guide.html`: rating criteria and aggregation for the two study courses.
-
-The previous literature, CMU learning-principles and classroom-research examples are not displayed in the current public site. Local research copies are retained.
-
-The review dataset version changed when its scope was reduced to 20 questions. Earlier 30-item exports remain historical; they are not silently imported into this review version. Ratings are stored in the reviewer's browser and returned through JSON export. No expert results are prefilled. Public pages contain no numerical LLM quality scores, generation code, API logs or private teaching documents.
-
-Questions are researcher-designed adaptations rather than official course assessments. MIT materials: MIT OpenCourseWare 6.005, Spring 2016, CC BY-NC-SA 4.0. Inclusive-teaching materials: The Open University and partners, Week 3, CC BY-SA 4.0. AI-literacy source documents are private and are not distributed. Third-party media and identifiable learner records are excluded. The method does not estimate or calibrate student item difficulty.
+Authoring code and teaching source documents remain local and are not part of this publication.
