@@ -12,3 +12,5 @@ Dataset: oq-blind28-3374dd5b8c75
 Authoring code, raw teaching documents and private mapping are not uploaded. Historical commits may contain earlier demonstrations; reviewers should use the current form and avoid repository history until ratings are complete.
 
 - prompts.html and prompt-protocol.json: exact global generation/evaluation instructions, settings, schemas and anonymised input templates. Comparative model scores and private mappings remain local during expert review.
+
+Ratings are saved in the reviewer browser only. Reviewers must download a progress backup or completed ratings JSON and send the file to the study coordinator; there is no automatic collection backend. The form displays a local-only/not-sent notice, a backup-needed status, a permanent backup button and a final download/send reminder. Download initiation is not proof the file was saved by the browser. Existing item IDs, dataset version and stored ratings are retained.
